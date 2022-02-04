@@ -1,0 +1,48 @@
+.navbar {
+  justify-content: space-between;
+}
+.navbar .btn {
+  margin: 0;
+  background-color: var(--primary-color);
+}
+.navbar .right-nav {
+  display: inline-flex;
+  margin: 0;
+}
+.grid-column-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+.main-content {
+  height: 400px;
+}
+.main-content .responsive-img {
+  block-size: inherit;
+}
+.card {
+  width: 100%;
+}
+.navbar .navbar-btn {
+  display: none;
+}
+@media (max-width: 768px) {
+  .grid-column-2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .grid-column-6 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .navbar .form {
+    display: none;
+  }
+  .navbar .right-nav {
+    display: none;
+  }
+  .navbar .navbar-btn {
+    display: block;
+  }
+  .navbar {
+    align-items: center;
+  }
+}
