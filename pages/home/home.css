@@ -14,6 +14,7 @@
 }
 .main-content {
   height: 400px;
+  margin-bottom: 2rem;
 }
 .main-content .responsive-img {
   block-size: inherit;
@@ -23,6 +24,20 @@
 }
 .navbar .navbar-btn {
   display: none;
+}
+.text-overlay-container {
+  position: relative;
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  background-color: grey;
+  width: 100%;
+  text-align: center;
+  color: white;
 }
 @media (max-width: 768px) {
   .grid-column-2 {
