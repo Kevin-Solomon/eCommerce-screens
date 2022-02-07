@@ -41,7 +41,7 @@
   border-radius: 10px;
 }
 .card-landscape img {
-  width: 250px;
+  width: 50%;
   object-fit: cover;
   border-radius: 10px 0 0 10px;
 }
