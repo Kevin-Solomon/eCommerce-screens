@@ -22,6 +22,7 @@
   position: absolute;
   right: 10px;
   top: 10px;
+  cursor: pointer;
   background-color: #e5e7eb;
   border: 10px solid #fff;
   padding: 10px;
