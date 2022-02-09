@@ -1,0 +1,34 @@
+:root {
+  --primary-color: rgb(1, 53, 44);
+  --secondary-color: #61b390;
+  --text-color: rgb(225, 234, 205);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--text-color);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+}
+.btn {
+  color: var(--text-color);
+}
+.main {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  width: 500px;
+  height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
