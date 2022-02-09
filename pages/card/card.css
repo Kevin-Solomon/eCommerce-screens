@@ -17,11 +17,12 @@
 }
 .product-card-badge {
   position: absolute;
-  background-color: orange;
+  background-color: #e67a00;
   /* width: 4rem; */
   padding: 10px;
   left: -10px;
   top: 10px;
+  color: var(--white-color);
 
   border-radius: 5px;
 }
