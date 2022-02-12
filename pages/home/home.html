@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://starui-component-library.netlify.app/index.css"
     />
+    <link rel="stylesheet" href="../card/card.css" />
     <link rel="stylesheet" href="./home.css" />
     <link rel="stylesheet" href="../../index.css" />
     <title>FootBallHQ | Home</title>
@@ -18,7 +19,7 @@
 
       <nav class="navbar">
         <div class="logo">
-          <h2>FootBallHQ</h2>
+          <h2>BlackT</h2>
         </div>
 
         <form class="form">
@@ -34,13 +35,13 @@
           <ul>
             <li>
               <div class="badge">
-                <i class="fas fa-heart fa-2x"></i>
+                <i class="fas fa-shopping-cart fa-2x"></i>
                 <div class="badge-number">1</div>
               </div>
             </li>
             <li>
               <div class="badge">
-                <i class="fas fa-shopping-cart fa-2x"></i>
+                <i class="fas fa-heart fa-2x"></i>
                 <div class="badge-number">1</div>
               </div>
             </li>
@@ -52,7 +53,10 @@
       </nav>
       <!-- MAIN CONTENT  -->
       <main class="main-content">
-        <p class="main-text">POWER YOUR PROGRESS</p>
+        <p class="main-text">
+          POWER YOUR PROGRESS
+          <button class="btn">Buy Now !!</button>
+        </p>
         <div class="main-img-wrapper animation-wrapper">
           <img
             class="responsive-img animate-img"
@@ -60,33 +64,28 @@
           />
         </div>
       </main>
-      <!-- 5 column layout -->
-
+      <!-- 5 COULMN LAYOUT -->
+      <h2 class="text-center">Shop By Categories</h2>
+      <div class="underline"></div>
       <div class="grid grid-column-4">
         <div>
           <div class="text-overlay-container">
-            <img
-              class="responsive-img"
-              src="https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            />
-            <p class="text-overlay">Boots</p>
+            <img class="responsive-img" src="../../assets/boot-image2.jpg" />
+            <p class="text-overlay"><span>Boots</span></p>
           </div>
         </div>
         <div>
           <div class="text-overlay-container">
             <img
               class="responsive-img"
-              src="https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              src="../../assets/manchester-united-21-22-third-jersey.jpg"
             />
             <p class="text-overlay">Footbal Jersey</p>
           </div>
         </div>
         <div>
           <div class="text-overlay-container">
-            <img
-              class="responsive-img"
-              src="https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            />
+            <img class="responsive-img" src="../../assets/sneakers-1.jpg" />
             <p class="text-overlay">Sneakers</p>
           </div>
         </div>
@@ -94,21 +93,49 @@
           <div class="text-overlay-container">
             <img
               class="responsive-img"
-              src="https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              src="../../assets/strike-football.jpg"
             />
             <p class="text-overlay">Football</p>
           </div>
         </div>
       </div>
       <!-- END OF 5 COLUMN LAYOUT  -->
-      <!-- add grid and grid-column-2 to the class of parent -->
-
+      <h2 class="text-center">Trending</h2>
+      <div class="underline"></div>
+      <!-- 2 COLUMN LAYOUT   -->
       <div class="grid grid-column-2">
-        <!-- any two components of your choice -->
-        <div class="grid-aside"></div>
-        <div class="grid-main-content"></div>
+        <div class="product-card">
+          <div class="card-image-container">
+            <img
+              class="responsive-img"
+              src="../../assets/real-madrid-21-22-home-jersey.jpg"
+            />
+            <i class="far fa-heart fa-lg"></i>
+          </div>
+          <h4>Real Madrid Jersey</h4>
+          <h4>₹2000</h4>
+          <button class="btn">Add to cart</button>
+          <span class="small-text product-card-badge">Best Seller</span>
+        </div>
+
+        <div class="product-card">
+          <div class="card-image-container">
+            <img
+              class="responsive-img"
+              src="../../assets/real-madrid-21-22-home-jersey.jpg"
+            />
+            <i class="far fa-heart fa-lg"></i>
+          </div>
+          <h4>Real Madrid Jersey</h4>
+          <h4>₹2000</h4>
+          <button class="btn">Add to cart</button>
+          <span class="small-text product-card-badge">Best Seller</span>
+        </div>
       </div>
     </div>
+    <!-- 2 COLUMN LAYOUT   -->
+    <!-- FOOTER  -->
+    <footer></footer>
     <script
       src="https://kit.fontawesome.com/ba728779ac.js"
       crossorigin="anonymous"
