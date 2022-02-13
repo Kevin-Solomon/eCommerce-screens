@@ -1,136 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://starui-component-library.netlify.app/index.css">
-  <link rel="stylesheet" href="./home.css">
-  <link rel="stylesheet" href="../../index.css">
-  <title>eCommerce | Home</title>
-</head>
-<body>
-  <div class="body-center">
-    
-    <!-- NAVBAR  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://starui-component-library.netlify.app/index.css"
+    />
+    <link rel="stylesheet" href="../card/card.css" />
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="../../index.css" />
+    <title>FootBallHQ | Home</title>
+  </head>
+  <body>
+    <div class="body-center">
+      <!-- NAVBAR  -->
 
-    <nav class='navbar'>
-      <div class="logo">
-        <h2>BlackT</h2>
-      </div>
-          
-    
+      <nav class="navbar">
+        <div class="logo">
+          <h2>FootballHQ</h2>
+        </div>
 
-      <form class="form">
-        <input type='text' class="form-input small-text" placeholder="Enter Product">
-      </form> 
-                                                                                                                      
-      <div class="right-nav">
-        <button class="btn primary-btn">Login</button>
-        <ul>                                                    
-          <li>
-            <div class="badge">
-              <i class="fas fa-heart fa-2x"></i>
-              <div class="badge-number">1</div>
-            </div>
-          </li>
-          <li>
-            <div class="badge">
-              <i class="fas fa-shopping-cart fa-2x"></i>
-              <div class="badge-number">1</div>
-            </div>
-          </li>                                 
-        </ul>
-      </div>
-      <button class="navbar-btn">
-        <span class="hamburger"></span>
-      </button>
-    </nav>
-    <!-- 5 column layout -->
-    
+        <form class="form">
+          <input
+            type="text"
+            class="form-input small-text"
+            placeholder="Enter Product"
+          />
+        </form>
 
+        <div class="right-nav">
+          <button class="btn primary-btn">Login</button>
+          <ul>
+            <li>
+              <div class="badge">
+                <i class="fas fa-shopping-cart fa-2x"></i>
+                <div class="badge-number">1</div>
+              </div>
+            </li>
+            <li>
+              <div class="badge">
+                <i class="fas fa-heart fa-2x"></i>
+                <div class="badge-number">1</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="navbar-btn">
+          <span class="hamburger"></span>
+        </button>
+      </nav>
+      <!-- MAIN CONTENT  -->
+      <main class="main-content">
+        <p class="main-text">
+          POWER YOUR PROGRESS
+          <button class="btn">Buy Now !!</button>
+        </p>
+        <div class="main-img-wrapper animation-wrapper">
+          <img
+            class="responsive-img animate-img"
+            src="../../assets/mercurial-superfly-8-elite-fg-football-boots-K5G1RM-removebg-preview.png"
+          />
+        </div>
+      </main>
+      <!-- 4 COULMN LAYOUT -->
+      <h2 class="text-center">Shop By Categories</h2>
+      <div class="underline"></div>
+      <div class="grid grid-column-4">
+        <div class="grid-category-card">
+          <div class="text-overlay-container">
+            <img class="responsive-img" src="../../assets/boot-image2.jpg" />
+            <p class="text-overlay">Boots</p>
+          </div>
+        </div>
+        <div class="grid-category-card">
+          <div class="text-overlay-container">
+            <img
+              class="responsive-img"
+              src="../../assets/manchester-united-21-22-third-jersey.jpg"
+            />
+            <p class="text-overlay">Football Jersey</p>
+          </div>
+        </div>
+        <div class="grid-category-card">
+          <div class="text-overlay-container">
+            <img class="responsive-img" src="../../assets/sneakers-1.jpg" />
+            <p class="text-overlay">Sneakers</p>
+          </div>
+        </div>
+        <div class="grid-category-card">
+          <div class="text-overlay-container">
+            <img
+              class="responsive-img"
+              src="../../assets/strike-football.jpg"
+            />
+            <p class="text-overlay">Football</p>
+          </div>
+        </div>
+      </div>
+      <!-- END OF 4 COLUMN LAYOUT  -->
+      <h2 class="text-center">Trending</h2>
+      <div class="underline"></div>
+      <!-- 2 COLUMN LAYOUT   -->
+      <div class="grid grid-column-2">
+        <div class="product-card">
+          <div class="card-image-container">
+            <img
+              class="responsive-img"
+              src="../../assets/real-madrid-21-22-home-jersey.jpg"
+            />
+            <i class="far fa-heart fa-lg"></i>
+          </div>
+          <h4>Real Madrid Jersey</h4>
+          <h4>₹2000</h4>
+          <button class="btn">Add to cart</button>
+          <span class="small-text product-card-badge">Best Seller</span>
+        </div>
 
-    <div class="grid grid-column-6">
-      <div>
-        <div class="text-overlay-container">
-          <img class='responsive-img' src="https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-          <p class="text-overlay">Men</p>
-        </div>
-  
-      </div>
-      <div>
-        <div class="text-overlay-container">
-          <img class='responsive-img' src="https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-          <p class="text-overlay">Men</p>
-        </div>
-      </div>
-      <div>
-        <div class="text-overlay-container">
-          <img class='responsive-img' src="https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-          <p class="text-overlay">Men</p>
-        </div>
-      </div>
-      <div>
-        <div class="text-overlay-container">
-          <img class='responsive-img' src="https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-          <p class="text-overlay">Men</p>
-        </div>
-      </div>
-      <div>
-        <div class="text-overlay-container">
-          <img class='responsive-img' src="https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-          <p class="text-overlay">Men</p>
-        </div>
-      </div>
-      <div>
-        <div class="text-overlay-container">
-          <img class='responsive-img' src="https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-          <p class="text-overlay">Men</p>
+        <div class="product-card">
+          <div class="card-image-container">
+            <img
+              class="responsive-img"
+              src="../../assets/real-madrid-21-22-home-jersey.jpg"
+            />
+            <i class="far fa-heart fa-lg"></i>
+          </div>
+          <h4>Real Madrid Jersey</h4>
+          <h4>₹2000</h4>
+          <button class="btn">Add to cart</button>
+          <span class="small-text product-card-badge">Best Seller</span>
         </div>
       </div>
     </div>
-    <main class='main-content'>
-      <img class="responsive-img" src="https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2FsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"> 
-    </main>    
-    
-<!-- add grid and grid-column-2 to the class of parent -->
-
-    <div class="grid grid-column-2">
-      <!-- any two components of your choice -->
-      <div class="grid-aside">
-        <!-- add card-horizontal class to the parent div  -->
-
-
-        <div class="card card-horizontal">
-          <div class="card-horizontal-header">
-            <img alt="image" id="card-image" src="https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
-            <div class="card-horizontal-text">
-              <h3>New Arrivals</h3>
-              <p class="small-text">Summer Collection</p>
-            </div>
-          </div>
-          
-        </div>
-                                                                                                                
+    <!-- 2 COLUMN LAYOUT   -->
+    <!-- FOOTER  -->
+    <footer class="footer">
+      Made with code by Kevin Solomon
+      <div class="footer-links">
+        <a href=""><i class="fab fa-twitter fa-lg"></i></a>
+        <a href=""><i class="fab fa-github fa-lg"></i></a>
+        <a href=""><i class="fab fa-linkedin-in fa-lg"></i></a>
       </div>
-      <div class="grid-main-content">
-        <!-- add card-horizontal class to the parent div  -->
-
-
-        <div class="card card-horizontal">
-          <div class="card-horizontal-header">
-            <img alt="image" class="responsive-img" id="card-image" src="https://images.unsplash.com/photo-1643133277936-9f93d8792522?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
-            <div class="card-horizontal-text">
-              <h3>New Arrivals</h3>
-              <p class="small-text">Summer Collection</p>
-            </div>
-          </div>
-          
-        </div>
-                                                                                                                
-      </div>
-    </div>                                                                                                                                           
-  </div>
-  <script src="https://kit.fontawesome.com/ba728779ac.js" crossorigin="anonymous"></script>
-</body>
+      <div>© 2021 KevinSolomon</div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/ba728779ac.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
