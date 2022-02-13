@@ -3,6 +3,9 @@
   --main-text-color: #1f4242;
 }
 /* MAIN CONTENT CSS  */
+body {
+  overflow-x: hidden;
+}
 .main-content {
   padding-left: 10px;
   margin-bottom: 2rem;
@@ -28,7 +31,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* flex-basis: 30%; */
 }
 .responsive-img {
   block-size: inherit;
@@ -46,26 +48,25 @@
 .animate-img {
   animation: shoe-animate 3s ease-in-out infinite alternate;
 }
+/* 4 COLUMN LAYOUT */
 .grid-column-4 {
   grid-template-columns: repeat(4, 1fr);
   margin-bottom: 10px;
 }
+/* CENTER ALL ELEMENTS IN 2 GRID LAYOUT  */
 .grid-column-2 > * {
   justify-self: center;
 }
+/* KEYFRAMES OF ANIMATION  */
 @keyframes shoe-animate {
-  0% {
-    /* transform: rotate(-30deg); */
-  }
   50% {
     transform: translateY(0);
-    /* transform: rotate(-30deg); */
   }
   100% {
     transform: translateY(-30px);
-    /* transform: rotate(-30deg); */
   }
 }
+/* UNDERELINE FOR ALL HEADINGS  */
 .underline {
   width: 100px;
   height: 10px;
@@ -76,6 +77,7 @@
 .card {
   width: 100%;
 }
+/* TEXT OVERLAAY CARDS  */
 .text-overlay-container {
   position: relative;
 }
@@ -104,6 +106,31 @@
 .grid-category-card img:hover {
   opacity: 1;
 }
+/* FOOTER OF THE SITE  */
+.footer {
+  background-color: var(--black-color);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: var(--white-color);
+}
+.footer-links {
+  font-weight: 600;
+  display: flex;
+  gap: 20px;
+  /* width: 100%; */
+}
+.footer-links i {
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+}
+.footer-links i:hover {
+  opacity: 1;
+}
+
+/* MEDIA QUERIES*/
 @media (max-width: 1024px) {
   .main-content .main-text {
     font-size: 3rem;
@@ -130,26 +157,4 @@
   .main-content .main-text {
     font-size: 1.3rem;
   }
-}
-.footer {
-  background-color: var(--black-color);
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  color: var(--white-color);
-}
-.footer-links {
-  font-weight: 600;
-  display: flex;
-  gap: 20px;
-  /* width: 100%; */
-}
-.footer-links i {
-  opacity: 0.5;
-  transition: all 0.5s ease-in-out;
-}
-.footer-links i:hover {
-  opacity: 1;
 }
