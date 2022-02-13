@@ -1,5 +1,8 @@
+/* DEFINING COLOR FOR MAIN TEXT  */
+:root {
+  --main-text-color: #1f4242;
+}
 /* MAIN CONTENT CSS  */
-
 .main-content {
   padding-left: 10px;
   margin-bottom: 2rem;
@@ -8,7 +11,7 @@
   justify-content: space-around;
   min-height: calc(100vh - 500px);
   border-radius: 10px;
-  background: rgb(34, 193, 195);
+  background: #22c1c3;
   background: linear-gradient(
     90deg,
     rgba(34, 193, 195, 1) 1%,
@@ -18,9 +21,10 @@
 .main-content .btn {
   margin: 0;
   width: min-content;
-  border: 1px solid var(--black-color);
+  border: 1px solid var(--main-text-color);
 }
 .main-text {
+  color: var(--main-text-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,10 +85,24 @@
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
-  background-color: grey;
   width: 100%;
   text-align: center;
-  color: white;
+  color: var(--black-color);
+  background-color: var(--lynx-grey);
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.grid-category-card {
+  border-radius: 10px;
+  cursor: pointer;
+}
+.grid-category-card img {
+  border-radius: 10px;
+  opacity: 0.7;
+  transition: all 0.5s ease-in-out;
+}
+.grid-category-card img:hover {
+  opacity: 1;
 }
 @media (max-width: 1024px) {
   .main-content .main-text {
@@ -112,4 +130,26 @@
   .main-content .main-text {
     font-size: 1.3rem;
   }
+}
+.footer {
+  background-color: var(--black-color);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: var(--white-color);
+}
+.footer-links {
+  font-weight: 600;
+  display: flex;
+  gap: 20px;
+  /* width: 100%; */
+}
+.footer-links i {
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+}
+.footer-links i:hover {
+  opacity: 1;
 }
