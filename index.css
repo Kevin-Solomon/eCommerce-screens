@@ -22,6 +22,10 @@
 .btn {
   color: var(--text-color);
 }
+.outline-primary {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
 /* Center buttons  */
 .main {
   padding: 10px;

@@ -1,0 +1,65 @@
+.profile-name,
+.profile-email,
+.profile-number {
+  display: flex;
+  justify-content: space-between;
+}
+.card .profile-title,
+.address-title {
+  text-align: center;
+}
+.card .edit-btn {
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+}
+.home-address {
+  display: flex;
+  gap: 10px;
+}
+.home-address i {
+  padding-top: 7px;
+}
+.home-address-content .btn {
+  margin: 10px;
+}
+
+.order-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid-display {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    ' profile  address'
+    'profile order';
+}
+.profile-card {
+  grid-area: profile;
+}
+.address-card {
+  grid-area: address;
+}
+.order-card {
+  grid-area: order;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .grid-display {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto;
+    grid-template-areas:
+      ' profile '
+      'address'
+      'order';
+  }
+}
+.footer {
+  margin-top: 20px;
+}

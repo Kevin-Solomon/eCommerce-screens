@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://starui-component-library.netlify.app/index.css"
+    />
+    <link rel="stylesheet" href="../card/card.css" />
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="../home/home.css" />
+    <link rel="stylesheet" href="./profile.css" />
+    <title>eCommerce | Home</title>
+  </head>
+  <body>
+    <!-- NAVBAR STARTS HERE  -->
+    <nav class="navbar">
+      <div class="logo">
+        <h2>FootballHQ</h2>
+      </div>
+
+      <form class="form">
+        <input
+          type="text"
+          class="form-input small-text"
+          placeholder="Enter Product"
+        />
+      </form>
+
+      <div class="right-nav">
+        <button class="btn primary-btn">Login</button>
+        <ul>
+          <li>
+            <div class="badge">
+              <i class="fas fa-heart fa-2x"></i>
+              <div class="badge-number">1</div>
+            </div>
+          </li>
+          <li>
+            <div class="badge">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+              <div class="badge-number">1</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button class="navbar-btn">
+        <span class="hamburger"></span>
+      </button>
+    </nav>
+
+    <!-- NAVBAR END HERE  -->
+    <main class="center-container">
+      <section class="grid-display">
+        <!-- use card class on the parent element -->
+
+        <div class="card profile-card">
+          <img
+            class="card-image"
+            src="https://starui-component-library.netlify.app/assets/image1.jpg"
+          />
+          <h3 class="profile-title">My profile</h3>
+          <div class="profile-name">
+            <input
+              class="form-input"
+              type="text"
+              value="Kevin Solomon"
+              disabled
+            />
+            <button class="edit-btn"><i class="fas fa-edit fa-lg"></i></button>
+          </div>
+          <div class="profile-email">
+            <input
+              class="form-input"
+              type="text"
+              value="xxxx@gmail.com"
+              disabled
+            />
+            <button class="edit-btn"><i class="fas fa-edit fa-lg"></i></button>
+          </div>
+          <div class="profile-number">
+            <input class="form-input" type="text" value="9900000XX" disabled />
+            <button class="edit-btn"><i class="fas fa-edit fa-lg"></i></button>
+          </div>
+          <div class="card-footer">
+            <button class="btn primary-btn">Deactivate Account</button>
+            <button class="btn btn-outline-primary">Save</button>
+          </div>
+        </div>
+        <div class="card address-card">
+          <h3 class="address-title">Address</h3>
+          <div class="home-address">
+            <i class="fas fa-home"></i>
+
+            <div class="home-address-content">
+              <h3>Home</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officiis, quam.
+              </p>
+              <button class="btn outline-primary">Edit</button>
+              <button class="btn outline-primary">Delete</button>
+            </div>
+          </div>
+          <button class="btn outline-primary">Add New Address</button>
+        </div>
+        <div class="card order-card">
+          <h3 class="order-title">Past Order</h3>
+          <div class="order-header">
+            <div class="order-status">
+              <h4>Leon Grill</h4>
+              <p>Delivered <i class="fas fa-check-circle"></i></p>
+            </div>
+            <p>Indiranagar</p>
+            <p>₹500</p>
+          </div>
+          <div class="order-details">
+            <p>PSG Home Kit × 1</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn primary-btn">REORDER</button>
+            <button class="btn btn-outline-primary">RATE ORDER</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      Made with code by Kevin Solomon
+      <div class="footer-links">
+        <a href=""><i class="fab fa-twitter fa-lg"></i></a>
+        <a href=""><i class="fab fa-github fa-lg"></i></a>
+        <a href=""><i class="fab fa-linkedin-in fa-lg"></i></a>
+      </div>
+      <div>© 2021 KevinSolomon</div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/ba728779ac.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
