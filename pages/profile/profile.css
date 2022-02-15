@@ -1,11 +1,19 @@
+body {
+  height: 100vh;
+  position: relative;
+}
+
+/* PROFILE CARD STYLE  */
 .profile-name,
 .profile-email,
 .profile-number {
   display: flex;
   justify-content: space-between;
 }
+
 .card .profile-title,
-.address-title {
+.address-title,
+.order-title {
   text-align: center;
 }
 .card .edit-btn {
@@ -62,4 +70,7 @@
 }
 .footer {
   margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
