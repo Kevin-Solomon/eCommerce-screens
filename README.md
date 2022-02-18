@@ -8,7 +8,7 @@ This repo contains the CSS for the screens of my eCommerce App
 ![HTML](https://img.shields.io/badge/HTML-HTML-orange)
 ![CSS](https://img.shields.io/badge/CSS-CSS-blue)
 
-# Table of Contents
+# Pages
 
 - [Card](https://ecommerece-shoe-screen.netlify.app/pages/card/card.html)
 - [Cart](https://ecommerece-shoe-screen.netlify.app/pages/cart/cart.html)
