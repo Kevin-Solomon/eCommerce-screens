@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://starui-component-library.netlify.app/index.css">
-  <link rel="stylesheet" href="./cart.css">
-  <link rel="stylesheet" href="../../index.css">
-  <title>eCommerce | Cart</title>
-</head>
-<body>
-  <!-- NAVBAR  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://starui-component-library.netlify.app/index.css"
+    />
+    <link rel="stylesheet" href="./cart.css" />
+    <link rel="stylesheet" href="../../index.css" />
+    <title>eCommerce | Cart</title>
+  </head>
+  <body>
+    <!-- NAVBAR  -->
 
-  <nav class='navbar'>
-    <div class="logo">
-      <h2>BlackT</h2>
-    </div>
-        
-  
+    <nav class="navbar">
+      <div class="logo">
+        <h2><a href="/">FootballHQ</a></h2>
+      </div>
 
-    <form class="form">
-      <input type='text' class="form-input small-text" placeholder="Enter Product">
-    </form> 
-                                                                                                                    
+      <form class="form">
+        <input
+          type="text"
+          class="form-input small-text"
+          placeholder="Enter Product"
+        />
+      </form>
+
       <div class="right-nav">
         <button class="btn primary-btn">Login</button>
-        <ul>                                                    
+        <ul>
           <li>
             <div class="badge">
               <i class="fas fa-heart fa-2x"></i>
@@ -37,7 +42,7 @@
               <i class="fas fa-shopping-cart fa-2x"></i>
               <div class="badge-number">1</div>
             </div>
-          </li>                                 
+          </li>
         </ul>
       </div>
       <button class="navbar-btn">
@@ -47,48 +52,53 @@
     <main>
       <div class="cart-container">
         <div class="card-landscape">
-          <img src="https://media.istockphoto.com/vectors/running-shoe-icon-isolated-sneaker-symbol-vector-vector-id1272854651?b=1&k=20&m=1272854651&s=170667a&w=0&h=PQhBbduJv9sIWEY47eIf3NGybbLL8jNt57Cu-ne__Ac=">
+          <img
+            src="https://media.istockphoto.com/vectors/running-shoe-icon-isolated-sneaker-symbol-vector-vector-id1272854651?b=1&k=20&m=1272854651&s=170667a&w=0&h=PQhBbduJv9sIWEY47eIf3NGybbLL8jNt57Cu-ne__Ac="
+          />
           <div class="card-content">
-            <p>Premium Jacket</p>
+            <h3>Premium Jacket</h3>
             <div class="price">
-              <p>2000</p><p>3000</p>
+              <p class="medium-text">₹2000</p>
+              <p class="strike">₹3000</p>
             </div>
 
-            <p>50%</p>
+            <p class="medium-text">50%</p>
             <div class="quantity">
               <p>Quantity</p>
               <button class="quantity-btn">+</button>
-              <input>
+              <input />
               <button class="quantity-btn">-</button>
             </div>
-            <button class="btn">Remove from Cart</button>
-            <button class="btn">Move To Wishlist</button>
+            <button class="btn outline-primary">Remove from Cart</button>
+            <button class="btn outline-primary">Move To Wishlist</button>
           </div>
-                                                                                                                
         </div>
         <div class="cart-summary">
           <h2>Price Details</h2>
           <div class="price">
             <p>Price</p>
-            <p>4999</p>
+            <p>₹4999</p>
           </div>
           <div class="discount">
             <p>Discount</p>
-            <p>-1999</p>
+            <p>-₹1999</p>
           </div>
           <div class="delivery">
             <p>Delivery Charges</p>
-            <p>499</p>
+            <p>₹499</p>
           </div>
           <div class="total-amount">
             <p>Total Amount</p>
-            <p>3499</p>
+            <p>₹3499</p>
           </div>
           <p>You wil save XXX on this order</p>
-          <button class="btn">Place Order</button>
+          <button class="btn primary-btn">Place Order</button>
         </div>
       </div>
     </main>
-  <script src="https://kit.fontawesome.com/ba728779ac.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/ba728779ac.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
